@@ -30,8 +30,12 @@ public class Puzzle02 {
      * 0.1000000000000000055511151231257827021181583404541015625. 
      * Using BigDecimal correctly, the program prints the expected result of 0.90
      */
-    public static BigDecimal subtractBigDecimal(String b1, String b2) {
+    public static BigDecimal subtractBigDecimalString(String b1, String b2) {
         return new BigDecimal(b1).subtract(new BigDecimal(b2));
+    }
+
+    public static BigDecimal subtractBigDecimal(BigDecimal b1, BigDecimal b2) {
+        return b1.subtract(b2);
     }
 
     
