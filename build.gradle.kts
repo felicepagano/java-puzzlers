@@ -12,6 +12,9 @@ plugins {
 
     // Apply the application plugin to add support for building a CLI application
     application
+
+    // used to generate the .project and .classpath files. These files are used by vscode.
+    eclipse
 }
 
 repositories {
