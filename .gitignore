@@ -4,3 +4,10 @@
 # Ignore Gradle build output directory
 build
 bin
+
+.classpath
+.settings
+.project
+java-puzzlers.code-workspace
+.sts4-cache/classpath-data.json
+.vscode
