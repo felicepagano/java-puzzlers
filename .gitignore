@@ -11,3 +11,4 @@ bin
 java-puzzlers.code-workspace
 .sts4-cache/classpath-data.json
 .vscode
+.DS_Store
